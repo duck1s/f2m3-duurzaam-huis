@@ -3,13 +3,13 @@ Joeri, Davy en Joey
 
 ## Onderdelen
 ### Categorie 1
-- Naam dashboard ** Davy **
-- Actuele tijd en datum ** Joeri **
-- Tijd zonsondergang en zonsopkomst ** Joey **
-- Weerbericht API ** Joeri **
-- Buitentemperatuur ** Joey **
-- Binnentemperatuur ** Davy **
-- Lichtsterkte ** Joeri **
+- Naam dashboard **Davy**
+- Actuele tijd en datum **Joeri**
+- Tijd zonsondergang en zonsopkomst **Joey**
+- Weerbericht API **Joeri**
+- Buitentemperatuur **Joey**
+- Binnentemperatuur **Davy**
+- Lichtsterkte **Joeri**
 - (zelf meer verzinnen)
 
 ### Categorie 2
