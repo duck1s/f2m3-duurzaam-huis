@@ -3,17 +3,17 @@ Joeri, Davy en Joey
 
 ## Onderdelen
 ### Categorie 1
-- Naam dashboard
-- Actuele tijd en datum
-- Tijd zonsondergang en zonsopkomst
-- Weerbericht API
-- Buitentemperatuur
-- Binnentemperatuur
-- Lichtsterkte
+- Naam dashboard ** Davy **
+- Actuele tijd en datum ** Joeri **
+- Tijd zonsondergang en zonsopkomst ** Joey **
+- Weerbericht API ** Joeri **
+- Buitentemperatuur ** Joey **
+- Binnentemperatuur ** Davy **
+- Lichtsterkte ** Joeri **
 - (zelf meer verzinnen)
 
 ### Categorie 2
-- Grafische weergave buitentemperatuur
+- Grafische weergave van buitentemperatuur
 - Grafische weergave van stroomverbruik
 - Grafische weergave van gasverbruik
 - Grafische weergave van waterverbruik
