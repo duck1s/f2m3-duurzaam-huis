@@ -1,0 +1,81 @@
+/* Global */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+}
+
+body {
+	font-size: 62.5%;
+	min-height: 100vh;
+}
+
+/* Font Things */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+	color: black;
+	font-family: "Open Sans", sans-serif;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	background: rgb(220, 220, 220);
+	color: black;
+	align-items: center;
+	font-size: 1rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 20vh;
+}
+
+.header-figure-img {
+	height: 5rem;
+	width: auto;
+}
+
+.header-time {
+	display: flex;
+	gap: 0.4rem;
+}
+
+/* Main */
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}
+
+.widget {
+	min-width: 80vw;
+	margin: 0 auto;
+	min-height: 40vh;
+	background: rgb(232, 232, 232);
+	border-radius: 0.5rem;
+	padding: 1rem;
+}
+
+.footer {
+	height: 6rem;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10vw;
+	background-color: rgb(218, 218, 218);
+}
+
+.footer > p {
+	font-size: 0.9rem;
+}
