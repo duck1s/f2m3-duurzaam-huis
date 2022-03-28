@@ -1,5 +1,5 @@
 # Duurzaam Huis
-Joeri, Davy en Joey
+Joeri Breedveld, Davy Faber en Joey Piebenga
 
 ## Beschrijving
 We moeten een dashboard maken waar je informatie kan zien over duurzaamheid in je huis.
