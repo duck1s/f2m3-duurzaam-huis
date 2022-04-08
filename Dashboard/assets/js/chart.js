@@ -56,3 +56,31 @@ var waterChart = new Chart(waterChart, {
 	},
 });
 
+var warmteValues = [273.062, 274.442, 274.751, 275.325, 275.694, 276.134, 276.313];
+var dates = [
+	"04-03-2022",
+	"09-03-2022",
+	"10-03-2022",
+	"12-03-2022",
+	"14-03-2022",
+	"16-03-2022",
+	"17-03-2022",
+];
+var warmteChart = document.getElementById("warmteChart");
+
+var warmteChart = new Chart(warmteChart, {
+	type: "line",
+	data: {
+		labels: dates,
+		datasets: [
+			{
+				label: "Warmtemeter",
+				data: stroomValues,
+				borderRadius: 10,
+				borderWidth: 1,
+				fill: true,
+				responsive: true,
+			},
+		],
+	},
+});

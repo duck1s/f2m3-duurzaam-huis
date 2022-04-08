@@ -8,8 +8,12 @@
 :root {
 }
 
-body {
+html {
 	font-size: 62.5%;
+}
+
+body {
+	
 	min-height: 100vh;
 	background: white;
 }
@@ -29,6 +33,7 @@ a,
 p {
 	color: rgb(36, 36, 36);
 	font-family: "Open Sans", sans-serif;
+	font-size: 1.6rem;
 }
 
 /* Header */
@@ -36,10 +41,10 @@ p {
 	width: 100%;
 	background: rgb(255, 255, 255);
 	align-items: center;
-	font-size: 1rem;
+	font-size: 1.6rem;
 	display: flex;
 	justify-content: space-between;
-	padding: 1rem 20vh;
+	padding: 2rem 20vh;
 }
 
 header {
@@ -54,6 +59,7 @@ header {
 }
 
 .header-title {
+	font-size: 3rem;
 }
 
 .header-figure-img {
@@ -70,7 +76,7 @@ header {
 .main {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 4rem;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
 }
@@ -82,10 +88,11 @@ header {
 	background: rgb(255, 255, 255);
 	border-radius: 0.5rem;
 	padding: 2.5rem;
+	box-shadow: 0 3px 50px rgba(0,0,0,0.2);
 }
 
 .footer {
-	height: 6rem;
+	height: 10rem;
 	display: flex;
 	position: relative;
 	align-items: center;
@@ -95,7 +102,7 @@ header {
 }
 
 .footer > p {
-	font-size: 0.9rem;
+	font-size: 1.4rem;
 }
 
 .main-buitentemperatuur-chart {
@@ -105,6 +112,69 @@ header {
 	height: 100%;
 	overflow: auto;
 }
+
+/* Slider */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .slider {
+	background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 34px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }
 
 @media screen and (max-width: 1000px) {
 	.header-left {

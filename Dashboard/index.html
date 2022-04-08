@@ -27,11 +27,14 @@
         </div>
     </header>
     <main class="main">
-        <section class="main-weerbericht widget">
-            <h2>Weerbericht</h2>
+        <section class="main-zon widget">
+            <h2>Zonsopkomst en Zonsondergang</h2>
+            <p>Opkomst: 6:59</p>
+            <p>Ondergang: 20:27</p>
         </section>
         <section class="main-buitentemperatuur widget">
-            <h2>Buitentemperatuur</h2>
+            <h2>Warmte Energie</h2>
+            <canvas class="main-buitentemperatuur-chart" id="warmteChart"></canvas>
         </section>
         <section class="main-stroomverbruik widget">
             <h2>Stroomverbruik</h2>
@@ -46,6 +49,17 @@
         </section>
         <section class="main-lampjes widget">
             <h2>Lampjes</h2>
+            <p>Lampje 1: </p>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <br><br>
+              <p>Lampje 2: </p>
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
         </section>
     </main>
     <footer class="footer">
