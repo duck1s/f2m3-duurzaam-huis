@@ -75,7 +75,7 @@ var warmteChart = new Chart(warmteChart, {
 		datasets: [
 			{
 				label: "Warmtemeter",
-				data: stroomValues,
+				data: warmteValues,
 				borderRadius: 10,
 				borderWidth: 1,
 				fill: true,
