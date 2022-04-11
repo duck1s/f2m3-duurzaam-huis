@@ -190,6 +190,8 @@ input:checked+.slider:before {
 
 	.main {
 		gap: 3rem;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
 	}
 
 	.footer {
