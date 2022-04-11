@@ -5,15 +5,14 @@
 	box-sizing: border-box;
 }
 
-:root {
-}
+:root {}
 
 html {
 	font-size: 62.5%;
 }
 
 body {
-	
+
 	min-height: 100vh;
 	background: white;
 }
@@ -76,19 +75,20 @@ header {
 .main {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 	gap: 4rem;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
+
 }
 
 .widget {
-	min-width: 80vw;
-	margin: 0 auto;
-	min-height: 40vh;
+	margin: 0vh 20vw;
+	min-height: 30vh;
 	background: rgb(255, 255, 255);
 	border-radius: 0.5rem;
 	padding: 2.5rem;
-	box-shadow: 0 3px 50px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 50px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
@@ -101,8 +101,9 @@ header {
 	background: white;
 }
 
-.footer > p {
+.footer>p {
 	font-size: 1.4rem;
+	text-align: center;
 }
 
 .main-buitentemperatuur-chart {
@@ -153,15 +154,15 @@ header {
 	transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
 	background-color: #2196F3;
 }
 
-input:focus + .slider {
+input:focus+.slider {
 	box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
 	-webkit-transform: translateX(26px);
 	-ms-transform: translateX(26px);
 	transform: translateX(26px);
@@ -181,14 +182,24 @@ input:checked + .slider:before {
 	.header-left {
 		flex-direction: column;
 	}
+
 	.header {
 		flex-direction: column;
 		padding: 2.5rem 20vw;
 	}
+
+	.main {
+		gap: 3rem;
+	}
+
 	.footer {
 		flex-direction: column;
 		padding: 2rem;
 		height: unset;
 		gap: 1rem;
+	}
+
+	.widget {
+		margin: 0vh 5vw;
 	}
 }
