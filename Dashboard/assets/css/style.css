@@ -183,7 +183,7 @@ input:checked+.slider:before {
 
 	.header {
 		flex-direction: column;
-		padding: 2.5rem 20vw;
+		padding: 2.5rem 0vw;
 	}
 
 	.main {
