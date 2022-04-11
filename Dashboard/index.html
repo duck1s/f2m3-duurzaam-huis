@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +10,27 @@
     <script src="assets/js/calc.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
     <title>Duurzaam Huis Dashboard</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header-left">
             <figure class="header-figure">
-                <img src="assets/img/logo.png" class="header-figure-img" alt="Duurzaam Huis logo" class="header-figure-img">
+                <img src="assets/img/logo.png" class="header-figure-img" alt="Duurzaam Huis logo"
+                    class="header-figure-img">
             </figure>
             <h1 class="header-title">Duurzaam Huis</h1>
         </div>
-        
+
         <div class="header-right">
-            <p id="day"> SUN</p> <p id="date"> 9 May 2021</p> <p id="time">1:20PM</p>
+            <p id="day"> SUN</p>
+            <p id="date"> 9 May 2021</p>
+            <p id="time">1:20PM</p>
         </div>
     </header>
     <main class="main">
@@ -46,8 +53,9 @@
         </section>
         <section class="main-berekeningen widget">
             <h2>Berekeningen</h2>
-            <p>Het apparaat gebruikt <input type="number" id="input1"> kWattHet apparaat staat per dag <input type="number" id="input2"> uur aan.</p>
-            <p>Hetapparaat heeft <span id="answer">...</span> Kwhverbruikt.</p>
+            <p>Het apparaat gebruikt <input type="number" id="input1"> kWatt Het apparaat staat per dag <input
+                    type="number" id="input2"> uur aan.</p>
+            <p>Het apparaat heeft <span id="answer">...</span> Kwh verbruikt.</p>
             <button onclick="calc()" id="calc">Calculate</button>
         </section>
         <section class="main-lampjes widget">
@@ -56,13 +64,13 @@
             <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
-              </label>
-              <br><br>
-              <p>Lampje 2: </p>
-              <label class="switch">
+            </label>
+            <br><br>
+            <p>Lampje 2: </p>
+            <label class="switch">
                 <input type="checkbox">
                 <span class="slider round"></span>
-              </label>
+            </label>
         </section>
     </main>
     <footer class="footer">
@@ -73,4 +81,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
     <script src="assets/js/chart.js"></script>
 </body>
+
 </html>
