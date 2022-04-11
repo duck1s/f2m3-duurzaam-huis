@@ -22,6 +22,8 @@ var stroomChart = new Chart(stroomChart, {
 				borderWidth: 1,
 				fill: true,
 				responsive: true,
+				backgroundColor: "#ffc96b",
+				borderColor: "#c79c52"
 			},
 		],
 	},
@@ -51,6 +53,8 @@ var waterChart = new Chart(waterChart, {
 				borderWidth: 1,
 				fill: true,
 				responsive: true,
+				backgroundColor: "#acc6d3",
+				borderColor: "#758e9b"
 			},
 		],
 	},
@@ -80,6 +84,8 @@ var warmteChart = new Chart(warmteChart, {
 				borderWidth: 1,
 				fill: true,
 				responsive: true,
+				backgroundColor: "#fc926e",
+				borderColor: "#c56d50"
 			},
 		],
 	},

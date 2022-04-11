@@ -28,6 +28,7 @@
         </div>
 
         <div class="header-right">
+            <span>⏰ </span>
             <p id="day"> SUN</p>
             <p id="date"> 9 May 2021</p>
             <p id="time">1:20PM</p>
@@ -35,31 +36,32 @@
     </header>
     <main class="main">
         <section class="main-zon widget">
-            <h2>Zonsopkomst en Zonsondergang</h2>
+            <h2>☀️ Zonsopkomst en Zonsondergang</h2>
             <p>Opkomst: 6:59</p>
             <p>Ondergang: 20:27</p>
         </section>
         <section class="main-buitentemperatuur widget">
-            <h2>Warmte Energie</h2>
+            <h2>🔥 Warmte Energie</h2>
             <canvas class="main-buitentemperatuur-chart" id="warmteChart"></canvas>
         </section>
         <section class="main-stroomverbruik widget">
-            <h2>Stroomverbruik</h2>
+            <h2>⚡ Stroomverbruik</h2>
             <canvas class="main-buitentemperatuur-chart" id="stroomChart"></canvas>
         </section>
         <section class="main-waterverbruik widget">
-            <h2>Waterverbruik</h2>
+            <h2>💧 Waterverbruik</h2>
             <canvas class="main-buitentemperatuur-chart" id="waterChart"></canvas>
         </section>
         <section class="main-berekeningen widget">
-            <h2>Berekeningen</h2>
-            <p>Het apparaat gebruikt <input type="number" id="input1"> kWatt. Het apparaat staat per dag <input
-                    type="number" id="input2"> uur aan.</p>
+            <h2>➗ Berekeningen</h2>
+            <p>Het apparaat gebruikt <input type="number" id="input1"> kWatt. </p>
+            <p>Het apparaat staat per dag <input type="number" id="input2"> uur aan.</p>
             <p>Het apparaat heeft <span id="answer">...</span> Kwh verbruikt.</p>
+            <br>
             <button onclick="calc()" id="calc">Calculate</button>
         </section>
         <section class="main-lampjes widget">
-            <h2>Lampjes</h2>
+            <h2>💡 Lampjes</h2>
             <p>Lampje 1: </p>
             <label class="switch">
                 <input type="checkbox">
@@ -76,7 +78,7 @@
     <footer class="footer">
         <p>Duurzaam Huis</p>
         <p>Gemaakt door Davy Faber, Joeri Breedveld en Joey Piebenga</p>
-        <p>E-mail: email@gmail.com</p>
+        <p>Email: 32653@ma-web.nl</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
     <script src="assets/js/chart.js"></script>

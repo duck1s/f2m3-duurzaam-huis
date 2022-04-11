@@ -17,10 +17,6 @@ body {
 	background: white;
 }
 
-main {
-	background: #d6e9d6;
-}
-
 /* Font Things */
 h1,
 h2,
@@ -43,10 +39,7 @@ p {
 	font-size: 1.6rem;
 	display: flex;
 	justify-content: space-between;
-	padding: 2rem 20vh;
-}
-
-header {
+	padding: 2rem 20vw;
 	position: relative;
 }
 
@@ -79,7 +72,12 @@ header {
 	gap: 4rem;
 	padding-top: 10vh;
 	padding-bottom: 10vh;
+	background: linear-gradient(to right, #c3dac3, #a5c9a5)
+}
 
+.test {
+	color: #c56d50;
+	color: #c79c52
 }
 
 .widget {
@@ -97,7 +95,7 @@ header {
 	position: relative;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 10vw;
+	padding: 0 20vw;
 	background: white;
 }
 
